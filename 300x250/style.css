@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/* setup */
+body {
+  margin: 0;
+  padding: 0;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    
+}
+html, body {
+    padding:0;border:0;margin:0;
+}
+div {
+    position: absolute;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+
+/* positioning classes */
+.topLeft {
+    top: 0px;
+    left: 0px;
+}
+.topRight {
+    top: 0px;
+    right: 0px;
+}
+.botLeft {
+    bottom: 0px;
+    left: 0px;
+}
+.botRight {
+    bottom: 0px;
+    right: 0px;
+}
+.fullSize {
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+}
+
+/* master banner div */
+#bannerTime {
+    background-color: #009439;
+    overflow: hidden;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+/* border */
+#bannerBorder {
+    border: 1px solid #4a4d4e;
+    width: 298px;
+    height: 248px;
+    visibility: visible;
+    z-index:200;
+}
+
+/* bg colour */
+#bannerBg {
+     /*background-image: url(images/frame4.png);*/
+    background:#009439;
+}
+
+
+/* BANNER SPECIFIC DIV CLASSES BELOW */
+#type_1 {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/type_1.png);
+}
+
+#type_2 {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/type_2.png);
+}
+
+#type_3 {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/type_3.png);
+}
+
+#logo {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/logo.png);
+}
+#cta {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/cta.png);
+}
+
+#tagline {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/tagline.png);
+}
+
+#flower_animation4 {
+    left:-15px;
+    top: 90px;
+    width: 340px;
+    height: 340px;
+    z-index: 4;
+    opacity: 1;
+}
+
+#flower_animation3 {
+    left:-15px;
+    top: 90px;
+    width: 340px;
+    height: 340px;
+    z-index: 3;
+    opacity: 0;
+}
+
+#flower_animation2 {
+    left:-15px;
+    top: 90px;
+   width: 340px;
+    height: 340px;
+    z-index: 2;
+    opacity: 0;
+}
+
+#flower_animation1 {
+    left:-15px;
+    top: 90px;
+    width: 340px;
+    height: 340px;
+    z-index: 1;
+    opacity: 0;
+}
+
+#flower_endframe {
+    left: 10px;
+    top: -20px;
+    width: 280px;
+    height: 280px;
+    background-image: url(images/flower_endframe.png);
+    opacity: 0;
+    
+}
+
+#flower {
+    left: -15px;
+    top: 70px;
+    width: 340px;
+    height: 340px;
+    background-image: url(images/flower.png);
+    opacity: 0;
+  
+    z-index: 110;
+}
+
+#flower1 {
+    left: 0px;
+    top: 80px;
+    width: 340px;
+    height: 340px;
+    background-image: url(images/black.png);
+}
+
+#flower2 {
+    left: 0px;
+    top: 80px;
+    width: 340px;
+    height: 340px;
+    background-image: url(images/purple.png);
+}
+
+#flower3 {
+    left: 0px;
+    top: 80px;
+    width: 340px;
+    height: 340px;
+    background-image: url(images/pink.png);
+}
+
+#flower4 {
+    left: 0px;
+    top: -20px;
+     width: 340px;
+    height: 340px;
+    background-image: url(images/spiral.png);
+}
+
+#white_box {
+    width: 300px;
+    height: 250px;
+    background-image: url(images/white_box.png);
+}
+
